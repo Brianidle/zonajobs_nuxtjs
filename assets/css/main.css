@@ -1,0 +1,15 @@
+* {
+  font-family: Montserrat, Arial, sans-serif;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+html{
+    font-size: 100%;
+}
+
+input:focus {
+  outline: none;
+}
