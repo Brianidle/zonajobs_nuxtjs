@@ -1,3 +1,14 @@
 <template>
-  <h1>Project Structure created with the vuejs tutorial. assets, pages, static</h1>
+  <SearchBar />
 </template>
+
+<script>
+import SearchBar from "../components/SearchBar.vue";
+export default {
+  components: {
+    SearchBar,
+  },
+};
+</script>
+
+<style></style>
