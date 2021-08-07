@@ -1,7 +1,7 @@
 <template>
   <div>
     <NavBar />
-    <nuxt style="margin-top:15px;" />
+    <nuxt class="pagesTemplate" />
   </div>
 </template>
 
@@ -15,4 +15,9 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+.pagesTemplate {
+  background-color: #f5f5f5;
+  padding-top: 58px;
+}
+</style>
