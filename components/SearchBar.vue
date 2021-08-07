@@ -3,7 +3,7 @@
     <input class="searchInput" placeholder="Puesto, Empresa, o Palabra Clave" />
     <div class="searchBarSeparator">|</div>
     <div class="locationSearchBar">
-      <label class="locationbarLabel"> En: </label>
+      <label class="locationBarLabel"> En: </label>
       <input class="locationInput" placeholder="Lugar de Trabajo" />
       <button class="dropdownButton">
         <svg
