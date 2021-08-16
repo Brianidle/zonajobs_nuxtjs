@@ -1,0 +1,1 @@
+(function(i){const n=i["bg"]=i["bg"]||{};n.dictionary=Object.assign(n.dictionary||{},{Bold:"Удебелен","Bulleted List":"Водещи символи",Italic:"Курсив","Numbered List":"Номериране",Redo:"Повтори",Strikethrough:"",Underline:"",Undo:"Отмени"});n.getPluralForm=function(i){return i!=1}})(window.CKEDITOR_TRANSLATIONS||(window.CKEDITOR_TRANSLATIONS={}));

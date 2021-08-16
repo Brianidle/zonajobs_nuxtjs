@@ -16,6 +16,8 @@
   "author": "Brianidle",
   "license": "ISC",
   "dependencies": {
+    "@ckeditor/ckeditor5-vue2": "^1.0.5",
+    "ckeditor5-custom-build": "file:modules/ckeditor5",
     "moment": "^2.29.1",
     "nuxt": "^2.15.7"
   }
