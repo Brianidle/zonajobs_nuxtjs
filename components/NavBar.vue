@@ -2,7 +2,7 @@
   <header>
     <div class="navContainer">
       <div class="navigationBar">
-        <a class="pageLogoButton">
+        <a class="pageLogoButton" href="/">
           <img
             class="pageLogo"
             src="https://imgzj.jobscdn.com/postulantes-assets/skins/zonajobs/commons/img/logo-zonajobs.svg"
@@ -16,7 +16,9 @@
             <a class="optionButton">Soy Empresa</a>
           </div>
           <div class="specialButtonsContainer">
-            <a class="navBarPublishButton">Publicar Gratis</a>
+            <a class="navBarPublishButton" href="/empresas/formularioGratis"
+              >Publicar Gratis</a
+            >
             <a class="navBarLogInButton">Ingresar</a>
           </div>
         </div>
