@@ -152,6 +152,8 @@ export default {
           urlCompanyLogo: this.urlCompanyLogo,
         }),
       });
+
+      this.$router.replace("/");
     },
     onClickCheckBox: function() {
       this.salary = "";
