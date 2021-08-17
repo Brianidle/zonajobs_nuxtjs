@@ -17,7 +17,7 @@
           <label class="featuredJobsTitle">
             Empleos destacados en <strong>Argentina</strong>
           </label>
-          <JobAds :jobAds="[]" />
+          <JobAds :jobAds="jobAds" />
         </div>
       </div>
     </div>
@@ -34,20 +34,11 @@ export default {
       jobAds: [],
     };
   },
-  // created: async function() {
-  //   let res = await fetch(
-  //     "https://zonajobsbackend.herokuapp.com/jobAd/all",
-  //     {
-  //       method: "get",
-  //       headers: {
-  //         Accept: "application/json",
-  //         "Content-Type": "application/json",
-  //       },
-  //     }
-  //   );
-  //   this.jobAds = await res.json();
-  //   console.log(this.jobAds);
-  // },
+  async fetch() {
+    this.jobAds = await fetch(
+      "https://zonajobsbackend.herokuapp.com/jobAd/all"
+    ).then((res) => res.json());
+  },
   components: {
     SearchBar,
     NavForFiltering,

@@ -1,11 +1,11 @@
 <template>
   <div class="jobAdsContent">
-      <JobAd v-for="jobAd in jobAds" :key="jobAd._id"/>
+    <JobAd v-for="jobAd in jobAds" :key="jobAd._id" :jobAd="jobAd" />
   </div>
 </template>
 
 <script>
-import JobAd from '../components/JobAd.vue';
+import JobAd from "../components/JobAd.vue";
 export default {
   props: ["jobAds"],
   data() {
@@ -13,9 +13,9 @@ export default {
       jobs: this.jobAds,
     };
   },
-  components:{
-      JobAd
-  }
+  components: {
+    JobAd,
+  },
 };
 </script>
 

@@ -5,7 +5,7 @@
     </p>
     <div class="jobDescriptionContent">
       <img
-        :v-if="job.urlCompanyLogo"
+        v-if="job.urlCompanyLogo"
         class="jobCompanyLogoImage"
         :src="job.urlCompanyLogo"
       />
@@ -15,13 +15,15 @@
         <label>{{ job.city }}</label
         >, <label>{{ job.state }}</label>
       </div>
-      <p class="jobDescription">{{ removeHTMLTags(job.description) + " ..." }}</p>
+      <p class="jobDescription">
+        {{ removeHTMLTags(job.description) + " ..." }}
+      </p>
     </div>
   </a>
 </template>
 
 <script>
-import moment from 'moment';
+import moment from "moment";
 export default {
   props: ["jobAd"],
   data() {
@@ -88,8 +90,8 @@ export default {
   margin-bottom: 10px;
   font-size: 12px;
 }
-.jobLocation :before {
-  content: "\\26CA";
+.jobLocation:before {
+  content: "\26CA";
   padding-right: 5px;
 }
 
